@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+      <link rel="stylesheet" href="style.css">
+      <title>Bookshelf</title>
+  </head>
+  <body>
+    
+    <main>
+        <h1>My Book List</h1>
+    <div class = 'container' id = 'input-container'>
+        <form id = 'input-form'>
+            <div class = 'field'>
+                Book Title
+                <input class = 'text-input' type="text" placeholder="Book Title" id = 'title' required>
+            </div>
+            <div class = 'field'>
+                Author
+                <input class = 'text-input' type="text" placeholder="Author" id = 'author'>
+            </div>
+
+            <div class = 'field'>
+                Number of Pages
+                <input class = 'text-input' type="text" placeholder="Number of Pages" id = 'pages'>
+            </div>
+            <div class = 'field'>
+                <input class = 'button' type="button" value = 'Add' id = 'add-button'>
+            </div>
+        </form>
+
+    </div>
+    
+    <div class = 'container' id = 'bookshelf'>
+       <table>
+           <thead>
+               <TR>
+                <th>Book Title</th>
+                <th>Author</th>
+                <th>Pages</th>
+                </TR>
+           </thead>
+           <tbody id = 'bookshelf-table'>
+             </tbody>
+       </table>
+    </div>
+    
+</main>
+
+  </body>
+  
+  
+</html>
+
+<script src = 'library.js'></script>

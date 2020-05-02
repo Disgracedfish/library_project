@@ -1,0 +1,77 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+  }
+  
+  html, body {
+      margin: auto;
+      font-size: 16pt;
+      
+  }
+
+  main {
+     
+   
+      min-width: 400px;
+  }
+
+  h1 {
+      text-align: center;
+  }
+
+  .container {
+      margin: 20px;
+  }
+
+.field {
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
+    margin: 14px 0;
+}
+
+.text-input {
+    border: solid 1px gray;
+    border-radius: 5px;
+    height:2em;
+    margin: 4px 0;
+    padding: 0 4px;
+    font-size: 16pt;
+}
+
+.button {
+    font-size: 16pt;
+    height: 2em;
+    width: 150px;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(67, 107, 187);
+}
+
+.button:hover {
+    filter: brightness(80%);
+}
+
+th,td {
+    vertical-align: top;
+    padding: 0.5em 0.75em;
+    text-align: left;
+}
+
+
+.delete {
+    border: none;
+
+}
+
+
+
+
+
+body:not(.user-is-tabbing) button:focus,
+body:not(.user-is-tabbing) input:focus,
+body:not(.user-is-tabbing) select:focus,
+body:not(.user-is-tabbing) textarea:focus {
+  outline: none;
+}
